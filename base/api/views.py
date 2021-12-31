@@ -22,7 +22,9 @@ def getRoutes(request):
         'GET,PUT,DELETE /api/profiles/:id',
         'GET,PUT,POST   /api/profiles/:id/resumes',
         'POST           /api/token/',
-        'POST           /api/token/refresh'
+        'POST           /api/token/refresh',
+        'GET            /api/schema',
+        'GET            /api/docs',
     ]
     return Response(routes)
 
