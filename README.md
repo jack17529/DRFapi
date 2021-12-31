@@ -2,6 +2,7 @@
 
 - This api is created using Python 3.8.10.
 - You can get more information about the packages used please see the `requirements.txt`.
+- Used core-api for generating docs.
 
 # Directory Structure
 
