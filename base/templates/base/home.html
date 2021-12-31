@@ -1,0 +1,17 @@
+{% include 'main.html' %}
+
+{% block content %}
+
+<h1>Home Template</h1>
+
+<div>
+    <div>
+        {% for profile in profiles %}
+            <div>
+                <h5>{{profile.id}} -- <a href="{% url 'profile' profile.id %}">{{profile.name}}</a></h5>
+            </div>
+        {% endfor  %}
+    </div>
+</div>
+
+{% endblock content %}
