@@ -108,8 +108,7 @@ DB_HOST=localhost
 - NOTE: The api is made to be consumed from a frontend that is exposed to the internet, which is what I assumed from the information provided to me. A company should not store data of the candidates like resumes when they update their resume. It is actually a crime until a written notice is provided to the candidates which they agree on. It is not made to be exposed directly to public internet. The requirements need to be changed in order for me to make it usuable for public internet directly.
 
 1. The docs are present at `http://127.0.0.1:8000/api/docs/`.
-2. 
-3. All the routes are available at `http://127.0.0.1:8000/api/` without any permissions. All the other routes needs a jwt token and IsAuthorized permission to access the route.
+2. All the routes are available at `http://127.0.0.1:8000/api/` without any permissions. All the other routes needs a jwt token and IsAuthorized permission to access the route.
 
 - GET Request
 - Response
